@@ -1,10 +1,9 @@
-> Looking for the Camunda Modeler Plugin? Get it [here](https://github.com/philippfromme/bpmn-js-token-simulation-plugin)!
 
-# bpmn-js Token Simulation
+# 汉化版 bpmn-js Token Simulation (bpnm模拟流转流程)
 
 [![Build Status](https://travis-ci.com/bpmn-io/bpmn-js-token-simulation.svg?branch=master)](https://travis-ci.com/bpmn-io/bpmn-js-token-simulation)
 
-A bpmn-js extension for token simulation.
+一个npnm 模拟流转流程的模拟器,基于bnpm使用,只是简单的汉化
 
 ![Screencast](docs/screenshot.png)
 
@@ -13,7 +12,7 @@ A bpmn-js extension for token simulation.
 Install via [npm](http://npmjs.com/).
 
 ```
-npm install bpmn-js-token-simulation
+npm install tl-hh-bpmn-js-token-simulation
 ```
 
 Add as additional module to [bpmn-js](https://github.com/bpmn-io/bpmn-js).
@@ -22,7 +21,7 @@ Add as additional module to [bpmn-js](https://github.com/bpmn-io/bpmn-js).
 
 ```javascript
 var BpmnModeler = require('bpmn-js/lib/Modeler');
-var tokenSimulation = require('bpmn-js-token-simulation');
+import tokenSimulation from 'tl-hh-bpmn-js-simulation';
 
 var modeler = new BpmnModeler({
   container: '#canvas',
@@ -30,6 +29,10 @@ var modeler = new BpmnModeler({
     tokenSimulation
   ]
 });
+//当前css 也需要引入
+@import "tl-hh-bpmn-js-simulation/assets/css/bpmn-js-token-simulation.css";
+@import "tl-hh-bpmn-js-simulation/assets/css/font-awesome.min.css";
+@import "tl-hh-bpmn-js-simulation/assets/css/normalize.css";
 ```
 
 ### Viewer
@@ -76,6 +79,8 @@ Check out `localhost:8080`.
 * Task
 * Terminate End Event
 * Subprocess
+
+以上事件没有详细说明,感谢原插件的开发者,原插件链接:https://github.com/bpmn-io/bpmn-js-token-simulation
 
 ## Licence
 

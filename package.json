@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bpmn-io/bpmn-js-token-simulation.git"
+    "url": "https://github.com/tianlun1995/bpnm-js-simulation"
   },
   "contributors": [
     {
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/bpmn-io/bpmn-js-token-simulation/issues"
   },
-  "homepage": "https://github.com/bpmn-io/bpmn-js-token-simulation#readme",
+  "homepage": "https://github.com/tianlun1995/bpnm-js-simulation",
   "devDependencies": {
     "bpmn-font": "^0.8.0",
     "bpmn-js": "^7.2.0",
