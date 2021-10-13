@@ -1,5 +1,5 @@
 {
-  "name": "tl-hh-bpmn-js-token-simulation",
+  "name": "tl-hh-bpmn-js-simulation",
   "version": "0.10.4",
   "description": "bpmn-js token simulation extension",
   "main": "index.js",
