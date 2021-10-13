@@ -39,7 +39,7 @@ var modeler = new BpmnModeler({
 
 ```javascript
 var BpmnViewer = require('bpmn-js/lib/NavigatedViewer');
-var tokenSimulation = require('bpmn-js-token-simulation/lib/viewer');
+var tokenSimulation = require('tl-hh-bpmn-js-token-simulation/lib/viewer');
 
 var viewer = new BpmnViewer({
   container: '#canvas',
